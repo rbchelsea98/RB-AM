@@ -1,24 +1,60 @@
-# RB-AM
+# Red Beacon Asset Management
 
-Red Beacon Asset Management — one-page marketing website.
+A modern, professional one-page marketing website for Red Beacon Asset Management. Built with pure HTML5, CSS3, and vanilla JavaScript — no frameworks, no build step.
 
-Built with HTML5, CSS3, and vanilla JavaScript. Form handling via [FormSubmit.co](https://formsubmit.co/) (no backend required).
+**Live site:** https://rbchelsea98.github.io/RB-AM/
+
+---
+
+## Features
+
+- Sticky navigation with smooth scroll and mobile hamburger menu
+- Full-viewport hero with animated number counters (AUM, clients, years, retention)
+- 4-card USP grid with hover lift effects
+- Auto-rotating testimonials carousel with swipe support
+- Enquiry form with client-side validation and async submission via FormSubmit.co
+- Responsive from 320px to 1920px
+- Fade-in animations on scroll using IntersectionObserver
+- Custom beacon SVG logo mark
+
+## Tech Stack
+
+| Layer | Choice |
+|-------|--------|
+| Markup | HTML5 (semantic) |
+| Styles | CSS3 — custom properties, flexbox/grid, media queries |
+| Scripts | Vanilla JavaScript (ES6+) |
+| Forms | [FormSubmit.co](https://formsubmit.co/) AJAX |
+| Fonts | Playfair Display + Inter (Google Fonts) |
+| Hosting | GitHub Pages |
 
 ## Files
 
-| File | Purpose |
-|------|---------|
-| `index.html` | All markup — nav, hero, USP cards, testimonials carousel, enquiry form, footer |
-| `styles.css` | Full design system — CSS variables, responsive layout, animations |
-| `script.js` | Smooth scroll, carousel, counter animation, form validation + async submit |
-| `logo.svg` | Standalone beacon mark + wordmark for external use |
+```
+index.html      All markup and content
+styles.css      Design system — tokens, components, responsive
+script.js       Interactivity — scroll, carousel, counters, form
+logo.svg        Standalone beacon mark + wordmark
+CLAUDE.md       Architecture guide for AI-assisted development
+```
 
-## Setup
+## Local Development
 
-Open `index.html` directly in a browser — no build step needed.
+Open `index.html` directly in any modern browser — no install or build step required.
 
-Before the enquiry form will deliver emails, replace `your-email@example.com` in two places:
-1. `index.html` line 136 — `<form action>`
-2. `script.js` line 306 — `fetch()` URL
+## Form Setup
 
-On first submission FormSubmit will send a one-time activation email — click the link to activate the endpoint.
+The enquiry form uses FormSubmit.co for email delivery. Replace `your-email@example.com` in two places before going live:
+
+1. `index.html` — `<form action="https://formsubmit.co/ajax/YOUR_EMAIL">`
+2. `script.js` — `fetch('https://formsubmit.co/ajax/YOUR_EMAIL', ...)`
+
+On first submission, FormSubmit sends a one-time activation email to that address — click the link to start receiving enquiries.
+
+## Colour Palette
+
+| Token | Value | Use |
+|-------|-------|-----|
+| Primary | `#0a2540` | Navy — backgrounds, text |
+| Accent | `#e05a8a` | Rose-pink — highlights, CTAs |
+| Background | `#f8f9fa` | Light grey sections |
