@@ -1,0 +1,16 @@
+Initialising git repository...
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+Done! Check https://github.com/rbchelsea98/RB-AM
+Press any key to continue . . . 
