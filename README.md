@@ -2,7 +2,7 @@
 
 A modern, professional one-page marketing website for Red Beacon Asset Management. Built with pure HTML5, CSS3, and vanilla JavaScript — no frameworks, no build step.
 
-**Live site:** https://rbchelsea98.github.io/RB-AM/
+**Live site:** [https://rbchelsea98.github.io/RB-AM/](https://rbchelsea98.github.io/RB-AM/)
 
 ---
 
@@ -30,17 +30,23 @@ A modern, professional one-page marketing website for Red Beacon Asset Managemen
 
 ## Files
 
-```
-index.html      All markup and content
-styles.css      Design system — tokens, components, responsive
-script.js       Interactivity — scroll, carousel, counters, form
-logo.svg        Standalone beacon mark + wordmark
-CLAUDE.md       Architecture guide for AI-assisted development
-```
+| File | Description |
+|------|-------------|
+| `index.html` | All markup and content |
+| `styles.css` | Design system — tokens, components, responsive |
+| `script.js` | Interactivity — scroll, carousel, counters, form |
+| `logo.svg` | Standalone beacon mark + wordmark |
+| `CLAUDE.md` | Architecture guide for AI-assisted development |
 
 ## Local Development
 
 Open `index.html` directly in any modern browser — no install or build step required.
+
+Alternatively, serve it with any static file server:
+
+```bash
+python -m http.server 8080
+```
 
 ## Form Setup
 
