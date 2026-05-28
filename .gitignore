@@ -1,3 +1,8 @@
 push-output.txt
 push-to-github.bat
-.claude/
+
+# Keep commands but exclude internal Claude files
+.claude/scheduled_tasks.lock
+.claude/agents/
+.claude/hooks/
+.claude/skills/
