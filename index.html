@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Red Beacon Asset Management — Grow Your Wealth with Confidence. Personalized investment strategies and expert financial advisory services.">
-  <title>Red Beacon Asset Management</title>
+  <meta name="description" content="Red Beacon Asset Management — ESG and impact investment strategies that grow your wealth while advancing sustainability. Specialists in responsible investing since 2009.">
+  <title>Red Beacon Asset Management | ESG &amp; Impact Investing</title>
 
   <!-- Google Fonts: Playfair Display (headings) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +31,9 @@
       <rect x="13" y="18.5" width="14" height="2.5" rx="1.25" fill="currentColor" stroke="none"/>
       <!-- Tower body (tapered) -->
       <path d="M17 21 L14 40 L26 40 L23 21 Z" fill="currentColor" stroke="none"/>
+      <!-- Growth leaves flanking the tower -->
+      <path d="M15 38 Q9 32 13 27 Q16 33 15 38Z" fill="currentColor" stroke="none" opacity="0.7"/>
+      <path d="M25 38 Q31 32 27 27 Q24 33 25 38Z" fill="currentColor" stroke="none" opacity="0.7"/>
       <!-- Base -->
       <rect x="10" y="40" width="20" height="4" rx="2" fill="currentColor" stroke="none" opacity="0.75"/>
     </symbol>
@@ -49,6 +52,7 @@
       <ul class="nav-links" id="navLinks" role="list">
         <li><a href="#home">Home</a></li>
         <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#impact">Impact</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -68,21 +72,31 @@
        ============================================================ -->
   <section id="home" class="hero" aria-label="Hero">
     <div class="hero-content">
-      <p class="hero-label fade-in">Trusted Since 2009</p>
+      <p class="hero-label fade-in">ESG &amp; Impact Investing Since 2009</p>
       <h1 class="fade-in">
-        Grow Your Wealth<br>
-        <span>with Confidence</span>
+        Invest with Purpose,<br>
+        <span>Grow with Impact</span>
       </h1>
       <p class="hero-sub fade-in">
-        Red Beacon Asset Management provides personalized investment strategies
-        and expert financial advisory services — designed to preserve and grow
-        your wealth across every market cycle.
+        Red Beacon Asset Management specialises in ESG-screened portfolios and
+        impact investments — aligning your financial returns with environmental
+        stewardship and social progress for a future worth investing in.
       </p>
       <div class="hero-cta fade-in">
         <a href="#contact" class="btn btn-primary">Get Started</a>
         <a href="#why-us"  class="btn btn-outline">Learn More</a>
       </div>
     </div>
+
+    <!-- Decorative leaf — bottom-right of hero, purely visual -->
+    <svg class="hero-leaf" viewBox="0 0 240 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M120 300 Q30 230 14 110 Q70 20 170 34 Q220 95 196 185 Q158 258 120 300Z"
+            fill="rgba(78,203,138,0.055)" stroke="rgba(78,203,138,0.17)" stroke-width="1.5"/>
+      <path d="M120 300 Q108 200 94 100" stroke="rgba(78,203,138,0.11)" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M96 148 Q62 136 36 112"  stroke="rgba(78,203,138,0.08)" stroke-width="1" stroke-linecap="round"/>
+      <path d="M100 188 Q68 180 46 162" stroke="rgba(78,203,138,0.08)" stroke-width="1" stroke-linecap="round"/>
+      <path d="M110 224 Q84 220 66 204" stroke="rgba(78,203,138,0.08)" stroke-width="1" stroke-linecap="round"/>
+    </svg>
 
     <!-- Animated statistics counters -->
     <div class="counters fade-in" aria-label="Key statistics">
@@ -95,7 +109,7 @@
               data-suffix="B"
               data-decimals="1"
               aria-label="2.4 billion dollars assets under management">$2.4B</span>
-        <span class="counter-label">Assets Under Management</span>
+        <span class="counter-label">Sustainable AUM</span>
       </div>
       <div class="counter-item">
         <span class="counter-value"
@@ -105,7 +119,7 @@
               data-suffix="+"
               data-decimals="0"
               aria-label="over 500 clients served">500+</span>
-        <span class="counter-label">Clients Served</span>
+        <span class="counter-label">Impact Investors</span>
       </div>
       <div class="counter-item">
         <span class="counter-value"
@@ -115,7 +129,7 @@
               data-suffix=" Yrs"
               data-decimals="0"
               aria-label="15 years of experience">15 Yrs</span>
-        <span class="counter-label">Years of Experience</span>
+        <span class="counter-label">Yrs ESG Track Record</span>
       </div>
       <div class="counter-item">
         <span class="counter-value"
@@ -132,41 +146,62 @@
 
 
   <!-- ============================================================
+       ESG TRUST STRIP — credentials bar between hero and content
+       ============================================================ -->
+  <div class="esg-strip" aria-label="ESG commitments and certifications">
+    <div class="container">
+      <div class="esg-badges">
+        <span class="esg-badge">PRI Signatory</span>
+        <span class="esg-badge">Net Zero Aligned</span>
+        <span class="esg-badge">SFDR Compliant</span>
+        <span class="esg-badge">B Impact Assessed</span>
+        <span class="esg-badge">15 Yrs ESG Leadership</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
        WHY US — 4 USP cards in a responsive grid
        ============================================================ -->
   <section id="why-us" class="section-light" aria-label="Why choose us">
     <div class="container">
-      <p class="section-label fade-in">Our Advantage</p>
-      <h2 class="section-title fade-in">Why Choose Us</h2>
+      <p class="section-label fade-in">Our Approach</p>
+      <h2 class="section-title fade-in">Why Choose Red Beacon</h2>
       <p class="section-sub fade-in">
-        We combine institutional-grade expertise with a personal touch —
-        because your financial future deserves both.
+        We pair institutional-grade analysis with rigorous ESG research —
+        because long-term value creation and a sustainable planet are not
+        competing goals, they are the same goal.
       </p>
 
       <div class="cards-grid">
 
-        <!-- Card 1: Personalized Strategy -->
+        <!-- Card 1: ESG-Aligned Portfolios -->
         <article class="card fade-in">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
-              <path d="M15 24l7 7 11-14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Leaf -->
+              <path d="M8 42 Q14 28 34 18 Q42 8 42 6 Q40 22 26 32 Q16 40 8 42Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M8 42 L24 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Personalized Strategy</h3>
-          <p>We tailor investment plans to your unique financial goals, risk tolerance, and timeline — no cookie-cutter solutions, ever.</p>
+          <h3>ESG-Aligned Portfolios</h3>
+          <p>Every portfolio is constructed around verified ESG criteria — environmental stewardship, social responsibility, and sound governance — without compromising competitive risk-adjusted returns.</p>
         </article>
 
-        <!-- Card 2: Proven Track Record -->
+        <!-- Card 2: Proven Sustainable Returns -->
         <article class="card fade-in">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <polyline points="5,36 17,22 27,30 43,10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <polyline points="33,10 43,10 43,20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Seedling growing upward -->
+              <line x1="24" y1="42" x2="24" y2="22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M24 32 Q16 26 10 16 Q20 12 28 22Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M24 26 Q32 20 38 10 Q28 6 20 16Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <line x1="8" y1="42" x2="40" y2="42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Proven Track Record</h3>
-          <p>Consistent performance across 15+ years and multiple market cycles, driven by a disciplined, research-backed investment philosophy.</p>
+          <h3>Proven Sustainable Returns</h3>
+          <p>Fifteen-plus years of consistent performance across market cycles, proving that screening for sustainability risk is also screening for long-term financial resilience.</p>
         </article>
 
         <!-- Card 3: Transparent Fees -->
@@ -180,7 +215,7 @@
             </svg>
           </div>
           <h3>Transparent Fees</h3>
-          <p>No hidden charges. Our fee-only structure ensures our interests are completely aligned with yours at every step of your journey.</p>
+          <p>No hidden charges, no commissions, no conflicts. Our fee-only model means the only way we succeed is when your capital grows — sustainably.</p>
         </article>
 
         <!-- Card 4: Expert Advisors -->
@@ -191,8 +226,87 @@
               <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Expert Advisors</h3>
-          <p>Our CFA-certified team brings decades of institutional experience, providing trusted guidance through every market condition.</p>
+          <h3>ESG &amp; Financial Experts</h3>
+          <p>Our CFA-certified and CESGA-accredited advisors combine deep financial expertise with specialist ESG knowledge, guiding you through responsible allocation decisions in any market.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       IMPACT — measurable environmental & social outcomes
+       ============================================================ -->
+  <section id="impact" class="section-nature" aria-label="Our environmental and social impact">
+    <div class="container">
+      <p class="section-label fade-in">Real-World Impact</p>
+      <h2 class="section-title fade-in">Measuring What Matters</h2>
+      <p class="section-sub fade-in">
+        Beyond financial returns, every dollar we manage creates measurable
+        environmental and social good — tracked, reported, and held to account.
+      </p>
+
+      <div class="impact-grid">
+
+        <!-- CO₂ avoided -->
+        <article class="impact-card fade-in">
+          <div class="impact-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M34 34H14a8 8 0 1 1 1.6-15.84A10 10 0 1 1 34 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24 42 Q14 34 16 24 Q22 19 28 28 Q33 21 40 19 Q40 33 24 42Z" fill="currentColor" opacity="0.55"/>
+            </svg>
+          </div>
+          <span class="impact-figure">47,000t</span>
+          <span class="impact-label">CO₂ Equivalent<br>Avoided Annually</span>
+        </article>
+
+        <!-- Clean energy invested -->
+        <article class="impact-card fade-in">
+          <div class="impact-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+              <line x1="24" y1="6"  x2="24" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="24" y1="38" x2="24" y2="42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="6"  y1="24" x2="10" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="38" y1="24" x2="42" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="10.1" y1="10.1" x2="13"   y2="13"   stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="35"   y1="35"   x2="37.9" y2="37.9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="37.9" y1="10.1" x2="35"   y2="13"   stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <line x1="13"   y1="35"   x2="10.1" y2="37.9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="impact-figure">$820M</span>
+          <span class="impact-label">Invested in<br>Clean Energy</span>
+        </article>
+
+        <!-- Sustainable companies -->
+        <article class="impact-card fade-in">
+          <div class="impact-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="20" width="28" height="22" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 42V30h12v12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M10 20l14-13 14 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24 13 Q20 9 22 5 Q27 7 24 13Z" fill="currentColor" opacity="0.55"/>
+            </svg>
+          </div>
+          <span class="impact-figure">180+</span>
+          <span class="impact-label">Sustainable Companies<br>in Portfolio</span>
+        </article>
+
+        <!-- UN SDGs -->
+        <article class="impact-card fade-in">
+          <div class="impact-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/>
+              <ellipse cx="24" cy="24" rx="7" ry="16" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="8"  y1="24" x2="40" y2="24" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="10" y1="17" x2="38" y2="17" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="10" y1="31" x2="38" y2="31" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span class="impact-figure">12</span>
+          <span class="impact-label">UN SDGs<br>Directly Addressed</span>
         </article>
 
       </div>
@@ -219,9 +333,9 @@
             <div class="testimonial-card" role="group" aria-label="Testimonial 1 of 3">
               <span class="quote-mark" aria-hidden="true">&ldquo;</span>
               <p class="quote-text">
-                Red Beacon transformed how I think about long-term wealth. My portfolio
-                has grown significantly since I joined, and I finally feel genuinely
-                secure about retirement.
+                Red Beacon proved that sustainable investing doesn't mean sacrificing
+                returns. My portfolio has outperformed while staying aligned to my values
+                — I retire with financial security and a clear conscience.
               </p>
               <div class="client-info">
                 <div class="client-avatar" aria-hidden="true">JW</div>
@@ -236,9 +350,9 @@
             <div class="testimonial-card" role="group" aria-label="Testimonial 2 of 3">
               <span class="quote-mark" aria-hidden="true">&ldquo;</span>
               <p class="quote-text">
-                As a business owner, I needed someone who understood both growth and
-                capital protection. Red Beacon delivered on both fronts with remarkable
-                clarity and professionalism.
+                As a business owner, I needed growth and capital protection — but also
+                wanted my capital working for a better future. Red Beacon delivered on
+                all three fronts with remarkable clarity and professionalism.
               </p>
               <div class="client-info">
                 <div class="client-avatar" aria-hidden="true">SC</div>
@@ -253,9 +367,9 @@
             <div class="testimonial-card" role="group" aria-label="Testimonial 3 of 3">
               <span class="quote-mark" aria-hidden="true">&ldquo;</span>
               <p class="quote-text">
-                The transparency and regular portfolio updates from my advisor give me
-                complete confidence in where my money is working. Truly exceptional
-                service from a team that genuinely cares.
+                The transparency and regular impact reports from my advisor give me full
+                confidence in how my capital is being deployed. Exceptional service from
+                a team that genuinely cares about outcomes.
               </p>
               <div class="client-info">
                 <div class="client-avatar" aria-hidden="true">DO</div>
@@ -301,8 +415,8 @@
       <p class="section-label fade-in">Start Today</p>
       <h2 class="section-title fade-in">Get in Touch</h2>
       <p class="section-sub fade-in">
-        Ready to take control of your financial future? Fill in the form below
-        and an advisor will be in touch within one business day.
+        Ready to invest with purpose? Fill in the form below and an ESG advisor
+        will be in touch within one business day.
       </p>
 
       <form
@@ -382,7 +496,13 @@
           <span class="logo-text">Red Beacon<span class="logo-sub">Asset Management</span></span>
         </p>
         <p class="footer-tagline">
-          Growing wealth with discipline, transparency, and trust since 2009.
+          Growing wealth responsibly for people, planet, and future generations since 2009.
+        </p>
+        <p class="footer-esg">
+          <svg class="footer-leaf-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M3 14 Q5 9 12 6 Q14 2 14 1 Q13 7 8 11 Q5 13 3 14Z"/>
+          </svg>
+          PRI Signatory &middot; Net Zero Aligned &middot; SFDR Compliant
         </p>
         <div class="social-icons" aria-label="Social media links">
           <a href="#" class="social-icon" aria-label="LinkedIn">
@@ -411,6 +531,7 @@
         <ul role="list">
           <li><a href="#home">Home</a></li>
           <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#impact">Impact</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
